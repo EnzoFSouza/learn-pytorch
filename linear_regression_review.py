@@ -8,3 +8,11 @@
 #1000: bias
 #More than one input feature:
 #rent = 2.5sz_sqft - 1.5age + 1000
+#weighted input feature: each input feature is multiplied by its own weight
+
+#considering rent = 3sz_sqft + 500 and sz_sqft = 500
+predicted_rent = 3 * 500 + 500
+
+#considering rent = 3sz_sqft + 10bedrooms + 250
+bedroom_weight = 10
+bias = 250
