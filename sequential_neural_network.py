@@ -114,3 +114,5 @@ predicted_rent = model(X)
 
 #show output
 print(predicted_rent[:5])
+
+#With sequential, we can only feed data from one layer to the next
